@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function ShopProject() {
   return (
-    <div className={styles.main}>
+    <div className={styles.container}>
         <div className={styles.mainBanner}></div>
         <div className={styles.productsWrapper}>
             <div className={styles.searchWrapper}></div>

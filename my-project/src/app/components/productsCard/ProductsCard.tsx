@@ -7,7 +7,7 @@ export default function ProductsCard() {
         <div className={styles.productImageWrapper}></div>
         <div className={styles.productInfoWrapper}>
             <p className={styles.productTitle}>Product name</p>
-            <button>Add to cart</button>
+            <button className={styles.buyButton}>Add to cart</button>
         </div>
     </div>
   );
