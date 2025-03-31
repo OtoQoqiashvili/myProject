@@ -2,6 +2,7 @@ import ProductsCard from "../components/productsCard/ProductsCard";
 import styles from "./page.module.css";
 
 export default function ShopProject() {
+
   return (
     <div className={styles.container}>
         <div className={styles.mainBanner}></div>

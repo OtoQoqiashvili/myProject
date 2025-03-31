@@ -3,13 +3,14 @@ import Link from "next/link";
 
 interface props {
   link: string;
+  title: string;
 }
 
-export default function ButtonRouting({ link }: props) {
+export default function ButtonRouting({ link, title }: props) {
   return (
     <div className={styles.buttonContainer}>
       <Link href={link}>
-        <p>SHOP WEBSITE</p>
+        <p>{title}</p>
       </Link>
     </div>
   );
