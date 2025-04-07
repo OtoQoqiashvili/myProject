@@ -70,12 +70,32 @@
     padding: 0;
 }
 
+.tast_card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid 3px #00d4ff;
+    cursor: pointer;
+}
+
+.checkbox_completed {
+    background-color: #00d4ff;
+}
+
 .todoItem {
+    flex: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 0;
-    border-bottom: 2px solid #00FFFF;    
+    border-bottom: 2px solid #00FFFF;
 }
 
 .todoItem_completed {
@@ -83,7 +103,6 @@
 }
 
 .todoText {
-    cursor: pointer;
     font-size: large;
     color: #00FFFF;
     font-weight: bold;
