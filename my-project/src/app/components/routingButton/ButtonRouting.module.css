@@ -1,0 +1,10 @@
+.buttonContainer {
+    background-color: blue;
+    color: aqua;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 15px;
+    border: solid aqua 2px;
+    text-align: center;
+    padding: 12px;
+}
