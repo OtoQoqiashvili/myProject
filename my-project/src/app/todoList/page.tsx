@@ -46,7 +46,7 @@ export default function Page() {
         </div>
         <ul className={styles.todoList}>
           {todos.map(todo => (
-            <div className={styles.tast_card}>
+            <div className={styles.tast_card} key={todo.id}>
               <div 
               className={`${styles.checkbox} ${todo.completed ? styles.checkbox_completed : ""}`}
               onClick={() => toggleTodo(todo.id)}/>
